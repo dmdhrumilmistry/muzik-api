@@ -189,14 +189,14 @@ files = [
 
 [[package]]
 name = "musicapy"
-version = "2.2.0"
+version = "2.2.1"
 description = "Python wrapper for several music platforms API"
 category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "musicapy-2.2.0-py3-none-any.whl", hash = "sha256:c4a52ddd9bed680bad1b844091a51737cad638603611744298988281d3394ef5"},
-    {file = "musicapy-2.2.0.tar.gz", hash = "sha256:cc1aba2202b44db019d9db97faa693032b1b38ddcf36d87e4dbdfc2a7e3ac34a"},
+    {file = "musicapy-2.2.1-py3-none-any.whl", hash = "sha256:319738b52c1788abf73ee423cd7bada9d6c82753c4c3e1e7f713719e58b5f0d8"},
+    {file = "musicapy-2.2.1.tar.gz", hash = "sha256:e082160b098531f3a7afb4af970344d349a0d5424dd9c5b22e4efcabe53d5961"},
 ]
 
 [package.dependencies]
@@ -283,4 +283,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<4.0"
-content-hash = "4e17bf43fd3b99ac207831feaee036a1e39479c685eb4a296c18ea9f539ea1a9"
+content-hash = "5d841b5392325735dc666bda58b41e61a82705e835671c599fcbf4ee74b63e2e"
