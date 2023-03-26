@@ -8,11 +8,12 @@ readme = "README.md"
 packages = [{include = "muzik_api"}]
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.8,<4.0"
 Django = "^4.1.7"
 djangorestframework = "^3.14.0"
 markdown = "^3.4.3"
 django-filter = "^23.1"
+musicapy = "^2.0.0"
 
 
 [build-system]
