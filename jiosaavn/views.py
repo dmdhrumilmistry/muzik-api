@@ -44,7 +44,7 @@ def search(request:HttpRequest):
     return JsonResponse(res, status=status_code)
 
 
-def song_details(request:HttpRequest):
+def details(request:HttpRequest):
     status_code = 200
     
     if request.method == 'GET':
