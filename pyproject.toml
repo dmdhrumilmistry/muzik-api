@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "music-api"
+version = "0.1.0"
+description = "Free Personal Music API"
+authors = ["Dhrumil Mistry <56185972+dmdhrumilmistry@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "music_api"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+Django = "^4.1.7"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.3"
+django-filter = "^23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
