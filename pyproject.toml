@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "music-api"
+name = "muzik-api"
 version = "0.1.0"
 description = "Free Personal Music API"
 authors = ["Dhrumil Mistry <56185972+dmdhrumilmistry@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "music_api"}]
+packages = [{include = "muzik_api"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8"
