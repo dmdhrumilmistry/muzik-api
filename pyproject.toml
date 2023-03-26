@@ -11,6 +11,7 @@ packages = [{include = "muzik_api"}]
 python = ">=3.8,<4.0"
 Django = "^4.1.7"
 musicapy = "^2.0.0"
+colorama = "^0.4.6"
 
 
 [build-system]
